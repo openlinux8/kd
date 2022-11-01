@@ -1,0 +1,32 @@
+loadBalancers:
+  - 172.17.8.236
+etcds:
+  - 172.17.8.236
+etcdVersion:
+  3.3.15
+masters:
+  - 172.17.8.236
+nodes:
+  - 172.17.8.242
+clusterVip:
+  172.17.8.240
+
+#此处可不填，留空会在命令行提示输入
+sshUser:
+  zhangyy
+#此处可不填，留空会在命令行提示输入
+sshPassword:
+  RhL670607
+clusterVersion:
+  v1.15.6
+imageRepo:
+  szreg.jpushoa.com/app
+serviceSubnet:
+  100.88.0.0/16
+podSubnet:
+  100.87.0.0/16
+clusterDNS:
+  100.88.0.10
+resolvConf:
+  /etc/resolv.conf
+
